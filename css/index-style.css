@@ -1,0 +1,117 @@
+body {
+    width: auto;
+    width: 100%;
+    height: 100%;
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+/* .navbar {
+    background-color: turquoise;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: black;
+} */
+
+.navbar {
+    background-color: rgba(64, 224, 208, 0.4);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: black;
+    backdrop-filter: blur(10px); /* Efek blur */
+}
+
+
+.navbar li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20pt;
+    padding: 10px;
+    color: black;
+    transition: color 0.3s;
+    /* Efek transisi untuk perubahan warna teks */
+}
+
+.navbar li:hover {
+    color: #ff0000;
+    /* Warna teks saat hover */
+}
+
+/* batas */
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+}
+
+th {
+    /* border: 1px solid black; */
+    background-color: dimgray;
+    color: white;
+    padding: 5px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+} 
+
+.btn-edit {
+    width: 50px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-hapus {
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.btn-tambah {
+    width: 50px;
+    height: 30px;
+    background-color: royalblue;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+}
